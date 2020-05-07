@@ -129,7 +129,7 @@ function DDA(p1, p2){
 
     if(dx>dy){
         stop = dx;
-    }else if(dx<dy){
+    }else if(dx<=dy){
         stop = dy;
     }
     stepX = dx/stop;
